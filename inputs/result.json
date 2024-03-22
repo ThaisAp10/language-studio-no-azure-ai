@@ -1,0 +1,400 @@
+{
+    "documents": [
+        {
+            "id": "id__1103",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.17,
+                "neutral": 0,
+                "negative": 0.83
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 0,
+                    "length": 213,
+                    "text": "Hotel bem velho e sem manutenção, ar condicionado sem regulagem, antigo e extremamente barulhento, cortinas que não cobrem totalmente as janelas, duchas que não saem muita água e são muito frias ou muito quentes. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 0,
+                            "length": 5,
+                            "text": "Hotel",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 34,
+                            "length": 15,
+                            "text": "ar condicionado",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/1"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 99,
+                            "length": 8,
+                            "text": "cortinas",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/2"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.07,
+                                "negative": 0.93
+                            },
+                            "offset": 146,
+                            "length": 6,
+                            "text": "duchas",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/3"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/4"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 10,
+                            "length": 5,
+                            "text": "velho",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 65,
+                            "length": 6,
+                            "text": "antigo",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 116,
+                            "length": 6,
+                            "text": "cobrem",
+                            "isNegated": true
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.05,
+                                "negative": 0.95
+                            },
+                            "offset": 189,
+                            "length": 5,
+                            "text": "frias",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.09,
+                                "negative": 0.91
+                            },
+                            "offset": 204,
+                            "length": 7,
+                            "text": "quentes",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.96,
+                        "negative": 0.02
+                    },
+                    "offset": 213,
+                    "length": 44,
+                    "text": "Torneira do banheiro parece um conta gotas. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.67,
+                        "neutral": 0,
+                        "negative": 0.33
+                    },
+                    "offset": 257,
+                    "length": 94,
+                    "text": "O café da manhã e razoável, frutas não são frescas, pão murcho e a coalhada melhor não comer. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.62,
+                                "negative": 0.38
+                            },
+                            "offset": 259,
+                            "length": 4,
+                            "text": "café",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.05,
+                                "negative": 0.95
+                            },
+                            "offset": 285,
+                            "length": 6,
+                            "text": "frutas",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/1"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 309,
+                            "length": 3,
+                            "text": "pão",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/2"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "mixed",
+                            "confidenceScores": {
+                                "positive": 0.62,
+                                "negative": 0.38
+                            },
+                            "offset": 275,
+                            "length": 8,
+                            "text": "razoável",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.05,
+                                "negative": 0.95
+                            },
+                            "offset": 300,
+                            "length": 7,
+                            "text": "frescas",
+                            "isNegated": true
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 313,
+                            "length": 6,
+                            "text": "murcho",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 351,
+                    "length": 307,
+                    "text": "O atendimento e ruim, pessoas desmotivadas, se vc chegar e estacionar nas vagas em frente ao hotel mesmo que tenham vagas na garagem no subsolo, não te informam, só descobrirá quando o hotel não tiver mais vagas para vc, mesmo que essas vagas sejam preenchidas por pessoas que chegaram após vc se hospedar. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 353,
+                            "length": 11,
+                            "text": "atendimento",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 373,
+                            "length": 7,
+                            "text": "pessoas",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 367,
+                            "length": 4,
+                            "text": "ruim",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 381,
+                            "length": 12,
+                            "text": "desmotivadas",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 658,
+                    "length": 107,
+                    "text": "A cozinha e terceirizada então, não conte com esse serviço caso vc precise de algo para seu filho a noite. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 660,
+                            "length": 7,
+                            "text": "cozinha",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 670,
+                            "length": 12,
+                            "text": "terceirizada",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 694,
+                            "length": 5,
+                            "text": "conte",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 765,
+                    "length": 69,
+                    "text": "Dica,se puderem escolher um outro Hotel mesmo mais caro, não existem.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
